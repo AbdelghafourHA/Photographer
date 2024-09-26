@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photographer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/photographer.css" />
+  </head>
+  <body>
+    <nav class="z-3 d-flex align-items-center position-fixed top-0 w-100">
+      <div class="container d-flex justify-content-between align-items-center">
+        <a class="logo logo-lg text-white" href="index.html">
+          <i class="fa-solid fa-camera"></i>
+          PHOTOGRAPHER
+        </a>
+        <ul class="links">
+          <li>
+            <div
+              id="projects"
+              class="active text-decoration-none text-white pt-2 pb-2 ps-3 pe-3"
+            >
+              Projects
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="all-projects p-0">
+      <section class="pictures">
+        <div class="container">
+          <h2 class="h2 mt-5">PICTURES</h2>
+          <div class="grid-projects mt-4 mb-2">
+            <div class="pic pic-one" url="../imgs/pro01.jpg"></div>
+            <div class="pic pic-two" url="../imgs/pro02.jpg"></div>
+            <div class="pic pic-three" url="../imgs/pro04.jpg"></div>
+            <div class="pic pic-four" url="../imgs/pro03.jpg"></div>
+            <div class="pic pic-five" url="../imgs/pro05.jpg"></div>
+            <div class="pic pic-six" url="../imgs/pro001.jpg"></div>
+            <div class="pic pic-seven" url="../imgs/pro002.jpg"></div>
+            <div class="pic pic-eight" url="../imgs/pro003.jpg"></div>
+            <div class="pic pic-nine" url="../imgs/pro004.jpg"></div>
+            <div class="pic pic-ten" url="../imgs/pro005.jpg"></div>
+          </div>
+        </div>
+      </section>
+      <section class="videos">
+        <div class="container">
+          <h2 class="h2">VIDEOS</h2>
+          <div class="row text-center mt-4">
+            <div class="col-12">
+              <div class="vid vid-one overflow-hidden">
+                <video src="../vds/vd01.mp4" controls></video>
+              </div>
+            </div>
+            <div class="col-12 mt-5">
+              <div
+                class="vid vid-two overflow-hidden d-flex align-items-center justify-content-center"
+              >
+                <video src="../vds/vd02.mp4" controls></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/projects.js"></script>
+  </body>
+</html>
